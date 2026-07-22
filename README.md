@@ -2,6 +2,14 @@
 
 ![](doc/banner.png)
 
+
+## Note to the reviewers
+
+See https://hackclub.slack.com/archives/C0AR9KH6BU2/p1784700225640219?thread_ts=1784646258.215889&cid=C0AR9KH6BU2
+
+
+Fabrication BOM.csv located at [PCB/peedee/production_real/peedee_1_bom.csv](PCB/peedee/production_real/peedee_1_bom.csv)
+
 USB-C power delivery board
 
 ## What this project is and why I made it
