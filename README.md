@@ -25,7 +25,7 @@ I also like how it ended up in such a small footprint-- about the size of the to
 ![](doc/pcb.png)
 
 
-## Bom in table format
+## Overall BOM
 
 |Item    |Cost |
 |--------|-----|
@@ -34,3 +34,20 @@ I also like how it ended up in such a small footprint-- about the size of the to
 |Shipping|3.3  |
 |Taxes   |3    |
 |Total   |40.86|
+
+
+# Fabrication BOM
+
+Looking for other fabrication outputs? This BOM in CSV form, plus the pnp files and gerbers, are in [PCB/peedee/production_real](PCB/peedee/production_real)
+
+|Designator         |Footprint                          |Quantity|Value           |LCSC Part #|
+|-------------------|-----------------------------------|--------|----------------|-----------|
+|C1                 |C0603                              |1       |1uf             |C15849     |
+|D10, D6, D7, D8, D9|SOD-123_L2.8-W1.8-LS3.7-RD-1       |5       |~               |C81598     |
+|LED1               |LED0805-R-RD                       |1       |0805G           |C2297      |
+|R1                 |R2010                              |1       |1k              |C2974087   |
+|R2                 |R0603                              |1       |270Ω            |C22966     |
+|SW1                |SW-SMD_TIMR-05-T-V-T-R             |1       |TIMR-05-T-V-T/R |C388479    |
+|U1, U3, U4, U5     |R0805                              |4       |10k             |C17414     |
+|U2                 |ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP|1       |CH224K          |C970725    |
+|USB1               |USB-C-SMD_TYPE-C-16PIN-2MD-073     |1       |TYPE-C 16PIN 2MD|C2765186   |
