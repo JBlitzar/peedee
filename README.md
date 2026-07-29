@@ -1,5 +1,7 @@
 # peedee
 
+> **Known issue (fix pending):** the 10k pull-down on CFG1 (U3) puts the CH224K into single-resistor config mode, so it always requests 9V and ignores CFG2/CFG3 — short U3 out on the board (which disables the 5V setting) or tie CFG1 directly to GND in the schematic before ordering.
+
 ![](doc/banner.png)
 
 
